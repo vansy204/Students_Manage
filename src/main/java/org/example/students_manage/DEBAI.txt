@@ -1,0 +1,20 @@
+yeu cau ve ung dung:
+- xay dựng ứng dụng Spring Boot,Cung cap cac API de quan li sinh vien
+    1 xem danh sach sinh vien:
+        + Request: GET /api/students
+        + Response: Danh sach sinh vien co trong csdl
+    2 Xem thong tin chi tiet cua mot sinh vien:
+        + Request: GET api/students/{id}
+        + Response: Thong tin chi tiet cua sinh vien cos ID tuong ung
+    3. Tao mot sinh vien moi:
+        + Request: POST api/students
+        + Body: Thong tin sinh vien (email, ho dem, ten,...) trong dinh dang JSON
+        + Response: Sinh vien duoc tao thanh cong
+    4. Cap nhat thong tin cua mot sinh vien:
+        + Request: PUT /apt/students/{id}
+        + Body: Thong tin sinh vien can cap nhat (email,ho dem,ten,..) trong dinh dang JSON
+        + Response: Sinh vien duoc cap nhat thanh cong
+    5. Xoa mot sinh vien:
+        + Request: DELETE /api/student/{id}
+        + Response: Sinh vien co id tuong ung duoc xoa thanh cong
+
